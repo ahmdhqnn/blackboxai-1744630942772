@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Internal app storage -->
+    <files-path
+        name="internal_files"
+        path="." />
+    
+    <!-- External app storage -->
+    <external-files-path
+        name="external_files"
+        path="." />
+    
+    <!-- External pictures directory -->
+    <external-path
+        name="external_pictures"
+        path="Pictures/WoundScanner" />
+    
+    <!-- Cache directory -->
+    <cache-path
+        name="cache"
+        path="." />
+    
+    <!-- External cache directory -->
+    <external-cache-path
+        name="external_cache"
+        path="." />
+
+    <!-- External media directory -->
+    <external-media-path
+        name="media"
+        path="." />
+
+    <!-- Specific paths for wound images -->
+    <external-files-path
+        name="wound_images"
+        path="Pictures/Wounds" />
+    
+    <!-- Specific paths for temporary images -->
+    <cache-path
+        name="temp_images"
+        path="temp/" />
+    
+    <!-- Specific paths for analysis results -->
+    <files-path
+        name="analysis_results"
+        path="Analysis/" />
+</paths>
