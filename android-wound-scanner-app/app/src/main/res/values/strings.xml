@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Wound Scanner</string>
+    
+    <!-- Common Actions -->
+    <string name="action_back">Back</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_share">Share</string>
+    <string name="action_discard">Discard</string>
+    <string name="open_settings">Open Settings</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">Welcome to Wound Scanner</string>
+    <string name="home_description">Scan and track wounds with AI-powered analysis</string>
+    <string name="start_scanning">Start Scanning</string>
+    <string name="recent_scans">Recent Scans</string>
+    <string name="no_recent_scans">No Recent Scans</string>
+    <string name="view_all_history">View All History</string>
+    <string name="total_scans">Total Scans</string>
+    <string name="active_wounds">Active Wounds</string>
+    <string name="healed_wounds">Healed Wounds</string>
+    <string name="healing_progress">Healing Progress</string>
+    <string name="upcoming_followups">Upcoming Follow-ups</string>
+
+    <!-- History Screen -->
+    <string name="wound_history">Wound History</string>
+    <string name="no_history">No History Found</string>
+    <string name="search_wounds">Search wounds…</string>
+    <string name="filter_wounds">Filter Wounds</string>
+    <string name="sort_wounds">Sort Wounds</string>
+    <string name="delete_record">Delete Record</string>
+    <string name="delete_confirmation">Are you sure you want to delete this record?</string>
+
+    <!-- Camera Screen -->
+    <string name="capture_image">Capture Image</string>
+    <string name="toggle_flash">Toggle Flash</string>
+    <string name="switch_camera">Switch Camera</string>
+    <string name="retake_photo">Retake Photo</string>
+    <string name="use_photo">Use Photo</string>
+
+    <!-- Analysis Screen -->
+    <string name="analysis_complete">Analysis Complete</string>
+    <string name="analyzing_image">Analyzing Image</string>
+    <string name="wound_type">Wound Type</string>
+    <string name="wound_size">Wound Size</string>
+    <string name="wound_severity">Severity</string>
+    <string name="confidence_score">Confidence Score</string>
+    <string name="recommendations">Recommendations</string>
+    <string name="add_notes">Add Notes</string>
+    <string name="save_analysis">Save Analysis</string>
+    <string name="discard_analysis">Discard Analysis</string>
+
+    <!-- Permissions -->
+    <string name="permission_required">Permission Required</string>
+    <string name="permission_camera_rationale">Camera permission is required to scan wounds</string>
+    <string name="permission_denied">Permission was denied. Some features may not be available</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_discard_changes">Discard Changes?</string>
+    <string name="dialog_discard_message">Are you sure you want to discard your changes?</string>
+    <string name="dialog_delete_title">Delete Record</string>
+    <string name="dialog_delete_message">Are you sure you want to delete this record? This action cannot be undone.</string>
+
+    <!-- Notifications -->
+    <string name="notification_followup_title">Follow-up Reminder</string>
+    <string name="notification_followup_text">Time to check on your %1$s wound</string>
+    <string name="notification_treatment_title">Treatment Reminder</string>
+    <string name="notification_treatment_text">Time for %1$s wound treatment</string>
+
+    <!-- Error Messages -->
+    <string name="error_camera_unavailable">Camera is unavailable</string>
+    <string name="error_image_capture">Failed to capture image</string>
+    <string name="error_analysis_failed">Analysis failed</string>
+    <string name="error_save_failed">Failed to save analysis</string>
+    <string name="error_load_failed">Failed to load data</string>
+    <string name="error_network">Network error occurred</string>
+    <string name="error_unknown">An unexpected error occurred</string>
+
+    <!-- Wound Types -->
+    <string name="wound_type_abrasion">Abrasion</string>
+    <string name="wound_type_laceration">Laceration</string>
+    <string name="wound_type_burn">Burn</string>
+    <string name="wound_type_pressure_ulcer">Pressure Ulcer</string>
+    <string name="wound_type_surgical">Surgical Wound</string>
+
+    <!-- Severity Levels -->
+    <string name="severity_mild">Mild</string>
+    <string name="severity_moderate">Moderate</string>
+    <string name="severity_severe">Severe</string>
+
+    <!-- Healing Stages -->
+    <string name="healing_stage_initial">Initial Assessment</string>
+    <string name="healing_stage_inflammation">Inflammation</string>
+    <string name="healing_stage_proliferation">Proliferation</string>
+    <string name="healing_stage_maturation">Maturation</string>
+    <string name="healing_stage_healed">Healed</string>
+    <string name="healing_stage_complicated">Complicated</string>
+
+    <!-- Statistics -->
+    <string name="stats_total_wounds">Total Wounds</string>
+    <string name="stats_active_wounds">Active Wounds</string>
+    <string name="stats_healed_wounds">Healed Wounds</string>
+    <string name="stats_avg_healing_time">Average Healing Time</string>
+    <string name="stats_follow_ups">Follow-ups Required</string>
+
+    <!-- Filters -->
+    <string name="filter_date_range">Date Range</string>
+    <string name="filter_wound_type">Wound Type</string>
+    <string name="filter_severity">Severity</string>
+    <string name="filter_healing_stage">Healing Stage</string>
+    <string name="filter_status">Status</string>
+
+    <!-- Sort Options -->
+    <string name="sort_date_asc">Date (Oldest First)</string>
+    <string name="sort_date_desc">Date (Newest First)</string>
+    <string name="sort_severity_high_low">Severity (High to Low)</string>
+    <string name="sort_severity_low_high">Severity (Low to High)</string>
+    <string name="sort_type_az">Type (A-Z)</string>
+    <string name="sort_type_za">Type (Z-A)</string>
+
+    <!-- Accessibility -->
+    <string name="accessibility_camera">Camera preview</string>
+    <string name="accessibility_flash">Flash</string>
+    <string name="accessibility_switch_camera">Switch camera</string>
+    <string name="accessibility_capture">Capture photo</string>
+    <string name="accessibility_wound_image">Wound image</string>
+    <string name="accessibility_progress">Progress indicator</string>
+</resources>
