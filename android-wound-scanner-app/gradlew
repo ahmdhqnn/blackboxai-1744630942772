@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Gradle wrapper script
+# This script is used to execute Gradle commands
+
+# Check if Gradle is installed
+if [ -z "$GRADLE_HOME" ]; then
+    echo "Please set the GRADLE_HOME environment variable to your Gradle installation."
+    exit 1
+fi
+
+# Execute Gradle command
+"$GRADLE_HOME/bin/gradle" "$@"
